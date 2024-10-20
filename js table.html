@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    1.Take Input of username from the user and show it in the h1 tag
+    2.create a table with columns s.no and name and insert 5 records into it using dom methods
+    <div id="div"></div>
+        <script>
+//  first answer
+    let h1 = document.createElement("h1")
+    div.appendChild(h1);
+    let name = prompt("enter your name")
+    let user = document.getElementsByTagName("h1")[0]
+    // console.log(user);
+    
+    user.innerText=`hello ${name}`
+            // second answer
+            let table = document.createElement("table")
+            document.body.appendChild(table)
+// first row
+            let first_row=document.createElement("tr")
+            table.appendChild(first_row)
+
+            let th1 = document.createElement("th")
+            first_row.appendChild(th1)
+
+            let th2 = document.createElement("th")
+            first_row.appendChild(th2)
+
+            let th3 = document.createElement("th")
+            first_row.appendChild(th3)
+
+            let th4 = document.createElement("th")
+            first_row.appendChild(th4)
+
+            let th5 = document.createElement("th")
+            first_row.appendChild(th5)
+// second row
+            let second_row=document.createElement("tr")
+            table.appendChild(second_row)
+
+            let td1 = document.createElement("td")
+            second_row.appendChild(td1)
+
+            let td2 = document.createElement("td")
+            second_row.appendChild(td2)
+
+            let td3 = document.createElement("td")
+            second_row.appendChild(td3)
+
+            let td4 = document.createElement("td")
+            second_row.appendChild(td4)
+
+            let td5 = document.createElement("td")
+            second_row.appendChild(td5)
+// third row
+            let third_row=document.createElement("tr")
+            table.appendChild(third_row)
+
+            let td11 = document.createElement("td")
+            third_row.appendChild(td11)
+
+            let td21 = document.createElement("td")
+            third_row.appendChild(td21)
+
+            let td31 = document.createElement("td")
+            third_row.appendChild(td31)
+
+            let td41 = document.createElement("td")
+            third_row.appendChild(td41)
+
+            let td51 = document.createElement("td")
+            third_row.appendChild(td51)
+// fourth row
+            let fourth_row=document.createElement("tr")
+            table.appendChild(fourth_row)
+
+            let td12 = document.createElement("td")
+            fourth_row.appendChild(td12)
+
+            let td22 = document.createElement("td")
+            fourth_row.appendChild(td22)
+
+            let td32 = document.createElement("td")
+            fourth_row.appendChild(td32)
+
+            let td42 = document.createElement("td")
+            fourth_row.appendChild(td42)
+
+            let td52 = document.createElement("td")
+            fourth_row.appendChild(td52)
+
+// fifth row
+let fifth_row=document.createElement("tr")
+            table.appendChild(fifth_row)
+
+            let td13 = document.createElement("td")
+            fifth_row.appendChild(td13)
+
+            let td23 = document.createElement("td")
+            fifth_row.appendChild(td23)
+
+            let td33 = document.createElement("td")
+            fifth_row.appendChild(td33)
+
+            let td43 = document.createElement("td")
+            fifth_row.appendChild(td43)
+
+            let td53 = document.createElement("td")
+            fifth_row.appendChild(td53)
+//   first row
+            th1.innerText="S.no"
+            th2.innerText="Name"
+            th3.innerText="mobile"
+            th4.innerText="address"
+            th5.innerText="pincode"
+// second row
+            td1.innerText="1"
+            td2.innerText="jayakrishna"
+            td3.innerText="9392446556"
+            td4.innerText="mothkur"
+            td5.innerText="508277"
+
+// third row 
+            td11.innerText="2"
+            td21.innerText="ramakrishna"
+            td31.innerText="8466836436"
+            td41.innerText="mothkur"
+            td51.innerText="508277"
+// fourth row
+            td12.innerText="3"
+            td22.innerText="abhiram"
+            td32.innerText="7993119262"
+            td42.innerText="aler"
+            td52.innerText="560102"
+// fifth row
+            td13.innerText="4"
+            td23.innerText="yogi"
+            td33.innerText="9876543210"
+            td43.innerText="gadwal"
+            td53.innerText="560103"
+
+            table.style.border= "1px solid black"
+            table.style.padding="10px"
+            let out_table=document.getElementsByTagName("table")[0]
+            console.log(out_table)
+        </script>
+</body>
+</html>
